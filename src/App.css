@@ -1,0 +1,28 @@
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999
+}
+
+
+
+.page-holder{
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: calc(100vh - 72px);
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.bg-gray-100 {
+    background-color: #f8f9fa!important;
+}
